@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -9,7 +11,14 @@ Table of Contents:
         3.4 Faq
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
+/*Comments*/
+/*grijs #899CA0 en donkergroen #1C2B32*/
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 /*////////////////////////
@@ -17,33 +26,199 @@ Table of Contents:
 ////////////////////////*/
 
 
-
 /*////////////////////////
     2. Typography
 ////////////////////////*/
-
-
+body {
+    color: #1C2B32;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 
 /*////////////////////////
     3. Areas
 ////////////////////////*/
 
 
-
 /*///////////// 3.1 Header /////////////*/
+.header-section {
+    color: #1C2B32;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: relative;
+    padding: 150px 50px;
+    background-image: url("../assets/images/mountains.jpg");
+}
 
+.header-section div {
+    max-width: 1000px;
+    margin: 0 auto;
 
+}
+
+.header-section h1 {
+    color: #1C2B32;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-size: 85px;
+}
+
+.header-section p {
+    color: #1C2B32;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin: 15px 0 15px 0;
+}
+
+.header-section button {
+    background-color: #1C2B32;
+    font-family: inherit;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 0 24px 24px 0;
+
+}
+
+.header-section input {
+    background-color: transparent;
+    border-color: #1C2B32;
+    font-family: inherit;
+    color: #1C2B32;
+    padding: 13px 100px 13px 5px;
+    border-radius: 24px 0 0 24px;
+    margin: -10px;
+}
+
+/*.header-image{
+    background-image: url("assets/images/mountains.jpg");
+    position: absolute;
+    max-width: 200px;
+    left: calc(50% - 100px);
+}*/
 
 /*///////////// 3.2 Testimonial /////////////*/
 
+.main-section h2 {
+    font-family: inherit;
+    text-align: center;
+    padding: 30px 30px;
+}
 
+.jane-doe {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+    margin: 20px 120px 20px 120px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.jane-doe p {
+    margin: 17px 30px -10px 96px;
+    font-size: 13px;
+    padding: 30px 25px 30px 0px;
+}
+
+.jane-doe img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 0px 0px 20px 0px;
+    left: calc(50% - 229px);
+}
+
+.jane-doe cite {
+    color: #1C2B32;
+    position: absolute;
+    padding: 15px 5px 20px 55px;
+    left: calc(50% - 216px);
+    font-size: 12px;
+}
+
+.john-smith {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
+    margin: 20px 120px 20px 120px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.john-smith p {
+    margin: 17px 30px -10px 96px;
+    font-size: 13px;
+    padding: 30px 25px 30px 0px;
+}
+
+.john-smith img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 0px 0px 20px 0px;
+    left: calc(50% - 229px);
+}
+
+.john-smith cite {
+    color: #1C2B32;
+    position: absolute;
+    padding: 15px 5px 20px 55px;
+    left: calc(50% - 216px);
+    font-size: 12px;
+}
 
 /*///////////// 3.3 Support /////////////*/
 
 
+.staan-klaar img {
+    max-width: 645px;
+    position: relative;
+    margin: 0px 0px 20px 0px;
+    left: calc(50% - 323px);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.staan-klaar p {
+    color: #1C2B32;
+    font-family: "Poppins", sans-serif;
+    margin: -10px 0 15px 118px;
+    font-size: 12px;
+}
+
+.staan-klaar button {
+    background-color: #1C2B32;
+    font-family: inherit;
+    color: white;
+    padding: 15px 20px;
+    margin: -1px 0px 20px 118px;
+    border: none;
+    border-radius: 24px 24px 24px 24px;
+}
 
 /*///////////// 3.4 Faq /////////////*/
 
-
-
+.faq{
+    padding: 20px 120px 20px 120px;
+    margin: -1px 0px 20px 118px;
+}
+.faq1{
+    margin: -1px 0px 20px -118px;
+}
+.faq2{
+    margin: -1px 0px 20px -118px;
+}
+.faq3{
+    margin: -1px 0px 20px -118px;
+}
+.faq4{
+    margin: -1px 0px 20px -118px;
+}
+.faq5{
+    margin: -1px 0px 20px -118px;
+}
 /*///////////// 3.5 Footer /////////////*/
+.footy{
+    background-color: #1C2B32;
+    padding: 20px 120px 20px 120px;
+
+}
+.footy p {
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
