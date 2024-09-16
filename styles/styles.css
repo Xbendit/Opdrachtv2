@@ -63,13 +63,14 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-size: 85px;
+    margin: -15px 0;
 }
 
 .header-section p {
     color: #1C2B32;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
-    margin: 15px 0 15px 0;
+    margin: 35px 0 35px 0;
 }
 
 .header-section button {
@@ -97,10 +98,8 @@ body {
 .main-section h2 {
     font-family: inherit;
     text-align: center;
-    padding: 30px 30px;
+    padding: 20px 30px 0px 30px;
 }
-
-
 
 .jane-doe {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16);
@@ -167,7 +166,9 @@ body {
 }
 
 /*///////////// 3.3 Support /////////////*/
-
+.staan-klaar h2{
+    padding: 0px 30px 20px 30px;
+}
 .staan-klaar img {
     max-width: 645px;
     position: relative;
@@ -188,7 +189,7 @@ body {
     font-family: inherit;
     color: white;
     padding: 15px 20px;
-    margin: -1px 0px 20px 118px;
+    margin: -1px 0px 0px 118px;
     border: none;
     border-radius: 24px 24px 24px 24px;
 }
@@ -217,7 +218,7 @@ body {
 }
 
 .faq5 {
-    margin: -1px 0px 20px -118px;
+    margin: -1px 0px 0px -118px;
 }
 
 /*///////////// 3.5 Footer /////////////*/
